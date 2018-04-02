@@ -1,4 +1,4 @@
-#!/home/duckmouthbeast/Documents/wildmagiks/env/bin/python
+#!/home/duckmouthbeast/Documents/wildmagiks/wildmagiks/env/bin/python
 from django.core import management
 
 if __name__ == "__main__":

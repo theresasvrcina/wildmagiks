@@ -1,4 +1,4 @@
-#!/home/duckmouthbeast/Documents/wildmagiks/env/bin/python
+#!/home/duckmouthbeast/Documents/wildmagiks/wildmagiks/env/bin/python
 
 import sys
 import getopt

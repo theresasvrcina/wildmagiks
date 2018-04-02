@@ -1,5 +1,6 @@
 from django.http import HttpResponse
-
+from .models import WildMagicSurgeEffect
 
 def index(request):
-    return HttpResponse("<h1>Hello, world. You're at the wmsg index.</h1>")
+    effect = WildMagicSurgeEffect.objects.get(id="2")
+    return HttpResponse(effect)
