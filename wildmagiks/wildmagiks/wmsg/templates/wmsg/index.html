@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wild Magic Surge Generator</title>
+</head>
+<style>
+button {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: 60px;
+  outline: none;
+  box-shadow: 0 25px darkred;
+  border: transparent;
+  position: center;
+}
+
+button:active {
+  box-shadow: none;
+  top: 25px;
+}
+</style>
+<body>
+
+<button onclick="location.href=''">Wild Magik Effect</button>
+<h1>{{ effect.id }}</h1>
+<h2>{{ effect.effect }}</h2>
+<h4>{{ effect.info }}</h4>
+
+  <!--
+{% for effect in effects %}
+  <h1>{{ effect.effect }}</h1>
+  <h4>{{ effect.info }}</h4>
+{% endfor %} -->
+</body>
+</html>
